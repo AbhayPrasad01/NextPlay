@@ -1,0 +1,33 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data files
+# We ignore all dataset files because they exceed GitHub's 100MB limit.
+data/*.csv
+data/*.json
+
+# Keep large/original source data ignored
+data/steam_description_data.csv
+data/steam.csv
+data/steamspy_tag_data.csv
+data/steam-200k.csv
+data/steam_requirements_data.csv
+data/steam_support_info.csv
+
+*.db
+*.sqlite3
+
+# Streamlit specific
+.streamlit/
+secrets.toml
+
+# Virtual Environments
+venv/
+env/
+.venv/
+
+# IDE files
+.vscode/
+.idea/
